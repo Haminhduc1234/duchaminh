@@ -1,0 +1,191 @@
+
+:root {
+    --primaryColor : #f9004d;
+}
+.container {
+    padding: 50px 0;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1655459880580-a085918f34cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1460&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.maxScreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 8%;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+span {
+    color: var(--primaryColor);
+}
+
+.maxScreen ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+.maxScreen ul li a {
+    color: white;
+    font-weight: bold;
+}
+.maxScreen ul li a:hover {
+    color: var(--primaryColor);
+    transition: .4s;
+}
+.btn__sub{
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform .4s;
+}
+.btn__sub:hover {
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+p {
+    color: #fcfc;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    margin: 5px 0px 30px;
+    font-size: 75px;
+}
+h2 {
+    color: white;
+    font-size: 48px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: var(--primaryColor);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.newEmail form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newEmail form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 15px 15px;
+    border: 2px solid var(--primaryColor) ;
+    border-radius: 30px;
+}
+.newEmail form input:nth-child(2) {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: var(--primaryColor);
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}
+.about {
+    width: 100%;
+    background-color: #191919;
+}
+.about__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 8%;
+
+}
+.about__img{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.about__text{
+    width: 50%;
+    margin-top: 20px;
+}
+.about__btnTalkMe{
+    padding: 10px 25px;
+    margin: 20px 0px;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.about__btnTalkMe:hover {
+    transform: scale(1.2);
+}
+
+.skills {
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.skill {
+    width: 25%;
+    height: 370px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 10px 10px 30px 10px;
+}
+
+.fa-battery-full,
+.fa-hand-peace-o,
+.fa-soccer-ball-o ,
+.fa-facebook-square,
+.fa-instagram,
+.fa-youtube-play{
+    color: var(--primaryColor);
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.contact__Me {
+    background-color: #191919;
+    text-align: center;
+    height: 270px;
+    padding: 30px 0px;
+}
+
+footer {
+    background-color: #101010;
+}
+footer .social {
+    text-align: center;
+    padding: 80px 0px 0px;
+    height: 200px;
+}
+.social__icon {
+    margin: 20px 10px;
+}
+
