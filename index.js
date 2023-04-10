@@ -16,4 +16,3 @@ function createRain() {
 
   rainContainer.appendChild(raindrop);
 }
-setInterval(createRain, 100);
