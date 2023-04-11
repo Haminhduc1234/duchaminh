@@ -61,6 +61,7 @@ span {
     background-color: var(--primaryColor);
     color: white;
     padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 30px;
     font-weight: bold;
     transition: transform .4s;
