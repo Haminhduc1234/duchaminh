@@ -1,5 +1,5 @@
 :root {
-    --primaryColor: #f9004d;
+    --primaryColor: #e24d3a;
 }
 
 .container {
@@ -79,7 +79,7 @@ span {
 }
 
 p {
-    color: #fcfc;
+    color: rgba(241, 181, 163, 0.8);
     font-size: 20px;
 }
 
